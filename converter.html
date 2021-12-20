@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="converter.css">
+        <title>Unit Converter</title>
+
+    </head>
+    <body>
+        <h1>Unit Temperature Converter</h1>
+        <br>
+        <h3>Convert Fahrenheit (ºF) to Celsius (ºC) and viceversa:</h3>
+        <div class="temperature-section">
+            <div id="fahrenheit-celsius">
+                <p>
+                    <label><b>Fahrenheit</b></label>
+                    <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+                    oninput="FtoC(this.value)" onchange="FtoC(this.value)">
+                </p>
+                <p>Celsius: <span id="outputCelsius"></span></p>
+                <script src="converter.js"></script>
+            </div>
+            <br>
+            <div id="celsius-fahrenheit">
+                <p>
+                    <label><b>Celsius</b></label>
+                    <input id="inputCelsius" type="number" placeholder="Celsius"
+                    oninput="CtoF(this.value)" onchange="CtoF(this.value)">
+                </p>
+                <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+                <script src="converter.js"></script>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h3>Convert Fahrenheit (ºF) to Kelvin (ºK) and viceversa:</h3>
+        <div class="temperature-phisics">
+            <div id="fahrenheit-kelvin">
+                <p>
+                    <label><b>Fahrenheit</b></label>
+                    <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+                    oninput="FtoK(this.value)" onchange="FtoK(this.value)">
+                </p>
+                <p>Kelvin: <span id="outputKelvin"></span></p>
+                <script src="converter.js"></script>
+            </div>
+            <br>
+            <div id="kelvin-fahrenheit">
+                <p>
+                    <label><b>Kelvin</b></label>
+                    <input id="inputKelvin" type="number" placeholder="Kelvin"
+                    oninput="KtoF(this.value)" onchange="KtoF(this.value)">
+                </p>
+                <p>Fahrenheit: <span id="outputFahrenhei"></span></p>
+                <script src="converter.js"></script>
+            </div>
+            <br>
+            <br>
+            <h3>Convert Celsius (ºC) to Kelvin (ºK) and viceversa:</h3>
+            <div id="celsius-kelvin">
+                <p>
+                    <label><b>Celsius</b></label>
+                    <input id="inputCelsius" type="number" placeholder="Celsius"
+                    oninput="CtoK(this.value)" onchange="CtoK(this.value)">
+                </p>
+                <p>Kelvin: <span id="outputKelvi"></span></p>
+                <script src="converter.js"></script>
+            </div>
+            <br>
+            <div id="kelvin-celsius">
+                <p>
+                    <label><b>Kelvin</b></label>
+                    <input id="inputKelvin" type="number" placeholder="Kelvin"
+                    oninput="KtoF(this.value)" onchange="KtoF(this.value)">
+                </p>
+                <p>Celsius: <span id="outputCelsiu"></span></p>
+                <script src="converter.js"></script>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </body>
